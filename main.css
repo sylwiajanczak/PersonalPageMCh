@@ -1,0 +1,393 @@
+/*
+Theme Name: Monika ChajÄcka
+Author: Sylwia Janczak dla Light Code
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: MCh
+*/
+
+
+@font-face {
+  font-family: 'Helios Antique Bold';
+  src: url('fonts/HeliosAntiqueBold/HeliosAntique-Bold.eot') format('eot'),
+       url('fonts/HeliosAntiqueBold/HeliosAntique-Bold.woff') format('woff'),
+       url('fonts/HeliosAntiqueBold/HeliosAntique-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helios Antique Heavy';
+	src: url('fonts/HeliosAntiqueHeavy/HeliosAntique-Heavy.eot') format('eot'),
+       url('fonts/HeliosAntiqueHeavy/HeliosAntique-Heavy.woff') format('woff'),
+       url('fonts/HeliosAntiqueHeavy/HeliosAntique-Heavy.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helios Antique Light';
+  src: url('fonts/HeliosAntiqueLight/HeliosAntique-Light.eot') format('eot'),
+       url('fonts/HeliosAntiqueLight/HeliosAntique-Light.woff') format('woff'),
+       url('fonts/HeliosAntiqueLight/HeliosAntique-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+  font-family: "Helios Antique Light", Times, serif;
+  color: #001443;
+}
+h2, h3{
+  font-size: 23px;
+  color: #001443;
+  font-family: "Helios Antique Light";
+}
+p{
+  font-size: 15px;
+  color: #001443;
+  font-weight: 300;
+}
+b {
+  font-family: "Helios Antique Bold";
+}
+
+.w3-content {
+    max-width: 1000px;
+}
+.w3-content-blue {
+    max-width: 1200px;
+}
+.header_kimjestem {
+   font-size: 23px;
+  color: #001443;
+  font-family: "Helios Antique Bold";
+}
+.pink_button {
+  font-size: 15px;
+  color: #EF3C5B;
+  font-weight: 700;
+}
+.header_top {
+  margin-top: 7em;
+}
+.w3-top {
+	color: #001443;
+  background-color: white;
+}
+.w3-bar li {
+  display: inline-block;
+  padding: 8px 30px;
+  font-weight: 900;
+}
+.logo {
+	font-size: 26px;
+}
+.menu{
+	font-size: 18px;
+}
+.menu_right {
+	padding: 8px 16px;
+}
+.w3-top a {
+	text-decoration: none;
+}
+.hamburger {
+	color: #EF3C5B;
+}
+#navDemo {
+	background-color: lightgrey;
+}
+
+.text_name_h1 {
+  font-size: 34px;
+  font-family: Helios Antique Bold;
+  color: #EF3C5B;
+  margin-bottom: -50px;
+}
+.surname_h1 {
+  font-size: 100px;
+  font-family: Helios Antique Light;
+  color: #001443;
+  margin-left: 0.5em;
+}
+.info_text p {
+  font-size: 15px;
+  margin-left: 8em;
+  color: #001443;
+}
+.bold {
+  color: #001443;
+  font-weight: 700;
+}
+.w3-btn {
+/*  background-color: #EF3C5B;*/
+  color: #EF3C5B;
+}
+.w3-border {
+  border: 3px solid #EF3C5B!important;
+}
+.press_button {
+  text-align: right;
+  margin-top: 1em;
+}
+.press_button a {
+  font-family: Helios Antique Bold;
+}
+.align_left a {
+  font-family: Helios Antique Bold;
+}
+span {
+    color: #EF3C5B;
+}
+span:nth-child(2) {
+  font-family: Helios Antique Bold;
+}
+.align_left {
+  margin-top: 1em;
+}
+.img_mch {
+  width: 25em;
+}
+.img_m1 {
+  width: 17em;
+}
+.header_column {
+  margin-top: 4em;
+}
+.header_column_kimjestem {
+  margin-top: 9em;
+}
+.divider {
+  background-image: url(img/divider.png);
+  background-repeat: no-repeat;
+  /*height: 23em;*/
+  top: 5em;
+}
+.divider_transform {
+  background-image: url(img/divider2.png);
+  background-repeat: no-repeat;
+}
+.prefooter {
+  background-image: url(img/prefooter.png);
+  background-repeat: no-repeat;
+  height:18em;
+}
+.monika_bg {
+  background-image: url(img/m2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 33em;
+  object-fit: cover;
+}
+.monika_kimjestem {
+  background-image: url(img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 38em;
+  object-fit: cover;
+}
+.monika_szkolenia {
+  background-image: url(img/Background_szkolenia.png);
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  text-align: center;
+  height: 38em;
+  object-fit: cover;
+}
+.section_two {
+ /* background-color: white;*/
+  margin-top: -18em;
+}
+.section_three{
+  margin-top: -8em;
+}
+.section_three_column {
+  margin-top: 17em;
+}
+.img_column {
+  margin-top: -6em;
+}
+.align_right {
+  text-align: right;
+}
+hr {
+  border-top: 2px solid #001443;
+}
+.four_img {
+  width: 292px;
+  height: 200px;
+}
+a {
+  text-decoration: none;
+}
+.prefooter_text {
+  background-color: #001443;
+}
+.white_prefooter {
+  color: white;
+}
+.img_prefooter {
+    width: 636px;
+    height: 314px;
+}
+.b {
+  color: white;
+}
+footer {
+  background-color: #EF3C5B;
+  color: white;
+}
+.news-form__input--width{
+  width: 150px;
+  border: 2px solid #EF3C5B;
+}
+.newsletter-subscription {
+  width: 90px;
+  border: 2px solid #EF3C5B;
+  background-color: #EF3C5B;
+  color: white;
+}
+.newsletter {
+  margin-top:6em;
+}
+.desktop_h2 {
+  margin-left: 0.7em;
+}
+.space {
+  margin-top: 3em;
+  margin-right: 4em;
+}
+.buttons {
+  position: relative;
+}
+.b_one {
+  right: -102px;
+}
+.b_two {
+  right: -102px;
+}
+.b_four {
+  right: -160px;
+  top: -43px;
+}
+.b_five {
+  right: -122px;
+  top: -46px;
+}
+.style3 {
+  font-size: 60px;
+  color: #EF3C5B;
+/*  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #EF3C5B, 0 0 30px #EF3C5B, 0 0 40px #EF3C5B, 
+  0 0 50px #EF3C5B, 0 0 75px #EF3C5B;*/
+}
+.style4 {
+  font-size: 20px;
+  color: #EF3C5B;
+/*  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #EF3C5B, 0 0 30px #EF3C5B, 0 0 40px #EF3C5B, 
+  0 0 50px #EF3C5B, 0 0 75px #EF3C5B;*/
+}
+.strzalka {
+  position: relative;
+  top: 33px;
+}
+.arrow {
+  position: relative;
+  top: 67px;
+}
+.koboLine {
+    border-bottom: 3px solid rgb(0, 20, 67);
+    width: 25%;
+    margin-top: 11px;
+}
+.koboLine_nieruchomosci {
+    border-bottom: 3px solid rgb(0, 20, 67);
+    width: 34%;
+    margin-top: 11px;
+}
+.koboLine_szkolenia {
+    border-bottom: 3px solid rgb(0, 20, 67);
+    width: 96%;
+    margin-top: 11px;
+}
+.zdr {
+  margin-top: 8em;
+}
+
+@media screen and (max-width: 480px) {
+  .surname_h1 {
+    margin-left: 0;
+    font-size: 65px;
+    padding-top: 10px;
+  }
+
+.img_prefooter {
+  width: 100%;
+}
+.header_top {
+  margin-top: 0;
+}
+.img_mch {
+  width: 22em;
+}
+.info_text p {
+  margin-left: 0;
+  text-align: center;
+}
+.info_text {
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+.press_button {
+  margin-left: 0;
+  text-align: center;
+}
+.divider {
+  top: 0;
+}
+.align_right {
+  text-align: center;
+  margin-right: 3vh;
+  margin-left: 3vh;
+}
+.img_column {
+  margin-top: 0;
+  text-align: center;
+}
+.section_three {
+  margin-top: 0;
+}
+.mobile {
+  text-align: center;
+}
+.section_three_column {
+  margin-top: 8em;
+}
+.four_img {
+  width: 100%;
+  height: 200px;
+}
+.newsletter {
+  margin-top: 0;
+}
+.column_mobile {
+  display: none;
+}
+.logo {
+  font-size: 17px;
+}
+.pink_button {
+  text-align: center;
+  padding-bottom: 3em;
+}
+.monika_bg {
+  margin-left: 6em;
+}
+
+}
